@@ -1,0 +1,61 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+input {
+  border: none;
+  outline: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+
+.carForm {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.carForm-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carForm-form-details {
+  display: flex;
+  gap: 20px;
+}
+
+.carList {
+  display: flex;
+  flex-direction: column;
+}
+
+.car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.car>p {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.carSearch-form {
+  text-align: end;
+  margin: 10px;
+}
